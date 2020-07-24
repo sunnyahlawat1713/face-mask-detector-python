@@ -6,6 +6,3 @@ For face detection, I have used OpenCV's readNet(cv2.dnn.readNet()) model which 
 
 # Mask detection: 
 For mask prediction(on detected faces), I have used the MobileNetV2 model trained on ImageNet weights with the top of the model excluded and the weights of the remaining layers have been retained. The top(head) of the model has been re-defined to suit the specific classification problem at hand(mask-detection).
-
-# Detection in static images:
-
